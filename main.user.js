@@ -5,7 +5,7 @@
 // @include     http://trophymanager.com/matches/*
 // @include     https://trophymanager.com/matches/*
 // @author    	Dgzt
-// @version     0.1
+// @version     0.2
 // @grant       none
 // ==/UserScript==
 
@@ -23,7 +23,7 @@ this.watch('end_of_game', function(prop, oldvarl, newval){
     var ul = attendanceSpan.parent().parent();
     ul.append('<li>' +
               '<span class="bold">Income:</span><br/>' +
-              '<span>Stadion: </span> <span>' + number_format(attendance*tfp_ticket_price) + '</span>' +
+              '<span>Stadium: </span> <span>' + number_format(attendance*tfp_ticket_price) + '</span>' +
               '</li>');
   }, tfp_wait_msec);
   
