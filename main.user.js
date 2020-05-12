@@ -1,15 +1,14 @@
 // ==UserScript==
 // @name        TrophyFincancePlus
-// @namespace   http://trophymanager.com
+// @namespace   https://trophymanager.com
 // @description More fincance information for Trophymanager.
-// @include     http://trophymanager.com/matches/*
 // @include     https://trophymanager.com/matches/*
 // @author    	Dgzt
-// @version     0.4
+// @version     0.5
 // @grant       none
 // ==/UserScript==
 
-var urlHome='http://trophymanager.com';
+var urlHome='https://trophymanager.com';
 var tfp_ticket_price=200;
 
 /**
